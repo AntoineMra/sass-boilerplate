@@ -1,0 +1,27 @@
+/* Regles generales */
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.4rem; /* 14px par défaut */
+  font-family: 'Poppins', sans-serif; // Needs Google Font kit
+  overflow-x: hidden;
+}
+
+a,
+a:hover,
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}

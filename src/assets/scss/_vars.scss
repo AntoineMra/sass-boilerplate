@@ -1,0 +1,25 @@
+// Colors
+$color-primary: #2157d9;
+$color-secondary: #f48924;
+$color-primary-dark: #111111;
+$color-grey: #e6e6e6;
+$color-dark: #474545;
+
+// Breakpoints
+$breakpoints: (
+  'mobile': (
+    567px,
+  ),
+  'small': (
+    767px,
+  ),
+  'medium': (
+    992px,
+  ),
+  'large': (
+    1200px,
+  ),
+  'xlarge': (
+    1700px,
+  ),
+) !default;

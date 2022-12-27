@@ -1,0 +1,38 @@
+{
+  "name": "sass-boilerplate",
+  "version": "1.0.0",
+  "description": "HTML SASS Gulp based Template app",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AntoineMra/sass-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "Antoine Marionneau",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^5.1.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.3.2",
+    "@typescript-eslint/parser": "^2.3.2",
+    "browser-sync": "^2.26.13",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-plumber": "^1.2.1"
+  },
+  "browserslist": [
+    "last 2 version",
+    "IE 10"
+  ]
+}
