@@ -2,7 +2,20 @@
 HTML SASS Gulp based Template app
 
 ## Get Started
+
+### Install dependencies
 ```
-npm install # Install dependencies
-gulp dev # Boot Dev Server
-gulp dist # Create production ready bundle
+npm install
+```
+
+### Boot Dev Server
+```
+gulp dev
+```
+
+### Create production ready bundle
+```
+gulp dist
+```
+
+
